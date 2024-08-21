@@ -87,7 +87,7 @@ Abaixo estão os resultados obtidos após a execução das buscas nos três arqu
    - **Uso de CPU**: `21.71%`
    - **Uso de RAM**: `14.96 MB`
 
-3. **Arquivo com 1 trilhão de números**:
+3. **Arquivo com 1 trilhão de números**(Não foi possivel realizar a execução):
    - **Número buscado**: `XXXXX`
    - **Tempo de execução**: `YYYYY segundos`
    - **Uso de CPU**: `ZZZZ%`
