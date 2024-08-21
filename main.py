@@ -60,18 +60,22 @@ def main():
         
         escolha = input("Digite o número correspondente à sua escolha: ")
         
+        tam_aquivo = 0
         if escolha == '1':
             file_path = 'numbers/1M.bin'
+            tam_aquivo = 1_000_000
         elif escolha == '2':
             file_path = 'numbers/1B.bin'
+            tam_aquivo = 1_000_000_000
         elif escolha == '3':
             file_path = 'numbers/1T.bin'
+            tam_aquivo = 1_000_000_000_000
         else:
             print("Escolha inválida. Saindo do programa.")
             return
         
         # Especificar o número a ser procurado
-        num_procurado = random.randint(0, 1000000)
+        num_procurado = random.randint(1, tam_aquivo)
 
         # Executar a função de busca e monitoramento
         buscar_num(num_procurado, file_path)
